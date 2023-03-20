@@ -22,14 +22,12 @@ galleryElements.addEventListener('click', (evt) => {
     if (evt.target.tagName !== 'IMG') {
         return
     }
-    
-    const lightbox = new SimpleLightbox('.gallery a',
+})
+
+const lightbox = new SimpleLightbox('.gallery a',
         {
             caption: 'alt',
             captionDelay: 250
         });
-
-})
-
 
 
